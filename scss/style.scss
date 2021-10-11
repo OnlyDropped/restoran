@@ -289,4 +289,132 @@
     color: #000000;
   }
 }
+.our-menu {
+  background-image: url("../img/menu/bg.jpg");
+  padding: 100px 0 226px;
+  &__title {
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 138px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    width: 350px;
+    background: #ffffff;
+    text-align: center;
+    padding: 80px 65px 29px;
+    position: relative;
+  }
+  &__card-recomanded {
+    display: block;
+    padding: 7px 11px 11px 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    background: #d67e34;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  &__box {
+    margin-bottom: 16px;
+    width: 225px;
+    position: relative;
+    height: 225px;
+  }
+  &__box-img {
+    border-radius: 50%;
+  }
+  &__box-price {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &__box-number {
+    width: 90px;
+    height: 90px;
+    display: block;
+    background: #d67e34;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cookie", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #ffffff;
+  }
+  &__box-title {
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 17px;
+  }
+  &__box-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    margin-bottom: 20px;
+    max-width: 217px;
+  }
+  &__box-link {
+    @extend %btn;
+    padding-left: 67px;
+    padding-right: 67px;
+    background: #d67e34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+}
+.slick-prev,
+.slick-next {
+  font-size: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  background: #d67e34;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  margin-left: -50px;
+}
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  right: -50px;
+}
+.slick-initialized .slick-slide {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
 @import "media";
