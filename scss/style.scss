@@ -481,4 +481,34 @@
     border: 1px solid #ff7400;
   }
 }
+.our-gallery {
+  padding: 100px 0 70px;
+  position: relative;
+  &__box {
+    width: 30px;
+    height: 100px;
+    background: #ff0000;
+    top: 222px;
+    position: absolute;
+    left: 0px;
+  }
+  &__box-right {
+    width: 30px;
+    height: 100px;
+    background: #ff0000;
+    top: 222px;
+    position: absolute;
+    right: 0;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 30px;
+  }
+}
 @import "media";

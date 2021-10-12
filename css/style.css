@@ -715,4 +715,43 @@ body {
   border-radius: 50%;
   border: 1px solid #ff7400;
 }
+
+.our-gallery {
+  padding: 100px 0 70px;
+  position: relative;
+}
+
+.our-gallery__box {
+  width: 30px;
+  height: 100px;
+  background: #ff0000;
+  top: 222px;
+  position: absolute;
+  left: 0px;
+}
+
+.our-gallery__box-right {
+  width: 30px;
+  height: 100px;
+  background: #ff0000;
+  top: 222px;
+  position: absolute;
+  right: 0;
+}
+
+.our-gallery__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.our-gallery__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 30px;
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
