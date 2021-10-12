@@ -594,8 +594,8 @@ body {
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.slick-prev,
-.slick-next {
+.our-menu .slick-prev,
+.our-menu .slick-next {
   font-size: 0px;
   padding: 0px;
   border: 0px;
@@ -606,7 +606,7 @@ body {
   cursor: pointer;
 }
 
-.slick-prev {
+.our-menu .slick-prev {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -615,7 +615,7 @@ body {
   margin-left: -50px;
 }
 
-.slick-next {
+.our-menu .slick-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -624,7 +624,7 @@ body {
   right: -50px;
 }
 
-.slick-initialized .slick-slide {
+.our-menu .slick-initialized .slick-slide {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -632,5 +632,87 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.review {
+  background-color: #e5e5e5;
+}
+
+.review__item {
+  padding: 104px 0 134px;
+  text-align: center;
+}
+
+.review__item-text {
+  display: block;
+  max-width: 756px;
+  margin: 0 auto 28px;
+}
+
+.review__item-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review__item-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.review__item-title {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 9px;
+  color: #000000;
+}
+
+.review__item-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.review .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 108px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.review .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  border: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  margin: 0 5px;
+}
+
+.review .slick-dots li[class="slick-active"] button {
+  background: #c4c4c4;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #ff7400;
 }
 /*# sourceMappingURL=style.css.map */
