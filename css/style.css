@@ -754,4 +754,28 @@ body {
   row-gap: 30px;
   margin-bottom: 30px;
 }
+
+.our-chef {
+  padding-bottom: 100px;
+}
+
+.our-chef__title {
+  margin-bottom: 107px;
+}
+
+.our-chef__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  min-height: 733px;
+  background-position-x: center;
+}
 /*# sourceMappingURL=style.css.map */

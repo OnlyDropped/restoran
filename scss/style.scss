@@ -511,4 +511,20 @@
     margin-bottom: 30px;
   }
 }
+.our-chef {
+  padding-bottom: 100px;
+  &__title {
+    margin-bottom: 107px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  min-height: 733px;
+  background-position-x: center;
+}
 @import "media";
