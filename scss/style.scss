@@ -1,9 +1,11 @@
 @import "vars";
 @import "reset";
 @import "global";
-//.header {
-//
-//}
+.header {
+  &__btn{
+    display: none;
+  }
+}
 .header-top {
   padding-top: 55px;
   background-image: url("../img/bg.jpg");

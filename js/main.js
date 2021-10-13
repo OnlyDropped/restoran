@@ -14,3 +14,8 @@ $('.review__slider').slick({
   autoplay: true,
   autoplaySpeed: 8000,
 });
+$(".header-top__link").html("МЕНЮ");
+
+$(".header__btn").on("click", function () {
+  $(".header-navbar").toggleClass("header-navbar--active");
+});
