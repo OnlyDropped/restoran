@@ -950,5 +950,55 @@ body {
   .info__link {
     margin-left: 0;
   }
+  .our-offers {
+    padding: 63px 0 41px;
+  }
+  .our-offers__title {
+    margin-bottom: 68px;
+  }
+  .our-offers__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-offers__content-small {
+    display: none;
+  }
+  .our-offers__content-big {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 49px;
+  }
+  .our-offers__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 87px;
+    position: relative;
+    padding-left: 137px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .our-offers__item::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/hamburger.png");
+    width: 130px;
+    height: 113px;
+    left: 0px;
+  }
+  .our-offers__item img {
+    display: none;
+  }
+  .our-offers__item-text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .our-offers__item-price {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

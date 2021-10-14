@@ -143,11 +143,53 @@
       line-height: 34px;
       margin-bottom: 21px;
     }
-    &__content-subtitle{
+    &__content-subtitle {
       margin-bottom: 41px;
     }
-    &__link{
+    &__link {
       margin-left: 0;
+    }
+  }
+  .our-offers {
+    padding: 63px 0 41px;
+    &__title {
+      margin-bottom: 68px;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__content-small {
+      display: none;
+    }
+    &__content-big {
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: 49px;
+    }
+    &__item {
+      flex-direction: column;
+      margin-bottom: 87px;
+      position: relative;
+      padding-left: 137px;
+      justify-content: center;
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url("../img/hamburger.png");
+        width: 130px;
+        height: 113px;
+        left: 0px;
+      }
+      img {
+        display: none;
+      }
+    }
+    &__item-text {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    &__item-price {
+      text-align: center;
     }
   }
 }
