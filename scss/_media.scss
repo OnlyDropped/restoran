@@ -1,3 +1,222 @@
+@media (max-width: 375px) {
+  .header {
+    &__btn {
+      display: block;
+      border: none;
+      padding: 0;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+  .header-navbar {
+    //display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    background-color: purple;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1;
+    transform: translateY(-200%);
+    transition: all 0.7s;
+    &--active {
+      transform: translateY(0%);
+    }
+    &__list {
+      margin-right: 0;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      row-gap: 20px;
+      margin-bottom: 15px;
+    }
+    &__link {
+      font-size: 18px;
+    }
+    &__info {
+      margin-top: 20px;
+      margin-left: 0;
+      width: 100%;
+      padding-left: 0px;
+      margin-bottom: 20px;
+      &::before {
+        content: none;
+      }
+    }
+    &__info-link {
+      font-size: 23px;
+    }
+    &__btn {
+      margin-left: 0px;
+    }
+  }
+  .header-top {
+    background-position-x: center;
+    &__content {
+      padding-top: 15px;
+    }
+  }
+  .header-bottom {
+    &__inner {
+      flex-direction: column;
+    }
+  }
+  .our-story {
+    padding-top: 0;
+    padding-bottom: 51px;
+    &__inner {
+      flex-direction: column;
+    }
+    &__title {
+      margin-bottom: 48px;
+    }
+    &__text {
+      margin-bottom: 60px;
+    }
+    &__list {
+      flex-direction: row;
+      margin-bottom: 40px;
+      justify-content: space-around;
+    }
+    &__item {
+      margin-bottom: 19px;
+    }
+    &__item + .our-story__item {
+      margin-left: 0px;
+    }
+  }
+  .info {
+    padding: 20px 0 30px;
+    text-align: center;
+    &__inner {
+      flex-direction: column;
+    }
+    &__content-title {
+      font-size: 30px;
+      line-height: 34px;
+      margin-bottom: 21px;
+    }
+    &__content-subtitle {
+      margin-bottom: 41px;
+    }
+    &__link {
+      margin-left: 0;
+    }
+  }
+  .our-offers {
+    padding: 63px 0 41px;
+    &__title {
+      margin-bottom: 68px;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__content-small {
+      display: none;
+    }
+    &__content-big {
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: 49px;
+    }
+    &__item {
+      flex-direction: column;
+      margin-bottom: 87px;
+      position: relative;
+      padding-left: 192px;
+      justify-content: center;
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url("../img/hamburger.png");
+        width: 130px;
+        height: 113px;
+        left: 0px;
+      }
+      img {
+        display: none;
+      }
+    }
+    &__item-text {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    &__item-price {
+      text-align: center;
+    }
+  }
+  .our-menu {
+    padding: 50px 0px;
+    &__title {
+      margin-bottom: 50px;
+    }
+    .slick-next {
+      display: none !important;
+    }
+    &__card {
+      width: 310px;
+    }
+  }
+  .review {
+    &__item {
+      padding: 11px 0px 57px;
+    }
+    &__item-text {
+      font-size: 20px;
+      line-height: 27px;
+      font-style: italic;
+    }
+    .slick-dots {
+      bottom: 26px;
+    }
+    &__item-title {
+      margin-bottom: 5px;
+    }
+  }
+  .our-gallery {
+    padding: 50px 0px;
+    &__title {
+      margin-bottom: 20px;
+      span {
+        display: block;
+      }
+    }
+    &__box,
+    &__box-right {
+      display: none;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__item {
+      width: 290px;
+      img {
+        width: 100%;
+      }
+    }
+    &__inner--active {
+      flex-direction: column-reverse;
+    }
+  }
+  .our-chef {
+    padding-bottom: 50px;
+    &__inner{
+      flex-direction: column;
+      row-gap: 15px;
+    }
+    &__item{
+      img{
+        width: 300px;
+      }
+    }
+  }
+  .footer {
+    min-height: 569px;
+  }
+}
+
 @media (max-width: 320px) {
   .header {
     &__btn {

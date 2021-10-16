@@ -7,6 +7,14 @@ $('.our-menu__inner').slick({
   autoplaySpeed: 17000,
   responsive: [
     {
+      breakpoint: 376,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
       breakpoint: 321,
       settings: {
         arrows: false,
@@ -24,6 +32,13 @@ $('.review__slider').slick({
   autoplay: true,
   autoplaySpeed: 5000,
     responsive: [
+      {
+        breakpoint: 375,
+        settings: {
+          arrows: false,
+          slidesToScroll: 1,
+        }
+      },
     {
       breakpoint: 321,
       settings: {
