@@ -192,4 +192,72 @@
       text-align: center;
     }
   }
+  .our-menu {
+    padding: 62px 0 106px;
+    margin-top: -2px;
+    &__title {
+      font-size: 54px;
+      line-height: 62px;
+      margin-bottom: 98px;
+    }
+    .slick-next {
+      display: none !important;
+    }
+    &__card {
+      width: 100%;
+      padding: 80px 51px 29px;
+    }
+  }
+  .review {
+    &__item {
+      padding: 11px 0px 57px;
+    }
+    &__item-text {
+      font-size: 20px;
+      line-height: 27px;
+      font-style: italic;
+    }
+    .slick-dots {
+      bottom: 26px;
+    }
+    &__item-title {
+      margin-bottom: 5px;
+    }
+  }
+  .our-gallery {
+    padding: 71px 0 70px;
+    &__title {
+      margin-bottom: 82px;
+    }
+    &__box,
+    &__box-right {
+      display: none;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__item {
+      width: 290px;
+      img {
+        width: 100%;
+      }
+    }
+    &__inner--active {
+      flex-direction: column-reverse;
+    }
+  }
+  .our-chef {
+    padding-top: 0;
+    padding-bottom: 21px;
+    &__title {
+      margin-bottom: 80px;
+    }
+    &__inner {
+      flex-direction: column;
+      row-gap: 19px;
+    }
+  }
+  .footer {
+    min-height: 569px;
+  }
 }

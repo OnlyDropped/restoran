@@ -1000,5 +1000,79 @@ body {
   .our-offers__item-price {
     text-align: center;
   }
+  .our-menu {
+    padding: 62px 0 106px;
+    margin-top: -2px;
+  }
+  .our-menu__title {
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 98px;
+  }
+  .our-menu .slick-next {
+    display: none !important;
+  }
+  .our-menu__card {
+    width: 100%;
+    padding: 80px 51px 29px;
+  }
+  .review__item {
+    padding: 11px 0px 57px;
+  }
+  .review__item-text {
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+  }
+  .review .slick-dots {
+    bottom: 26px;
+  }
+  .review__item-title {
+    margin-bottom: 5px;
+  }
+  .our-gallery {
+    padding: 71px 0 70px;
+  }
+  .our-gallery__title {
+    margin-bottom: 82px;
+  }
+  .our-gallery__box, .our-gallery__box-right {
+    display: none;
+  }
+  .our-gallery__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-gallery__item {
+    width: 290px;
+  }
+  .our-gallery__item img {
+    width: 100%;
+  }
+  .our-gallery__inner--active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .our-chef {
+    padding-top: 0;
+    padding-bottom: 21px;
+  }
+  .our-chef__title {
+    margin-bottom: 80px;
+  }
+  .our-chef__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 19px;
+  }
+  .footer {
+    min-height: 569px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
