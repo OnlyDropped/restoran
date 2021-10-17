@@ -856,10 +856,10 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    row-gap: 20px;
   }
   .our-story {
-    padding-top: 0;
-    padding-bottom: 51px;
+    padding: 50px 0;
   }
   .our-story__inner {
     -webkit-box-orient: vertical;
@@ -1004,6 +1004,8 @@ body {
             flex-direction: column;
   }
   .our-gallery__item {
+    display: block;
+    margin: 0 auto;
     width: 290px;
   }
   .our-gallery__item img {
@@ -1024,6 +1026,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 15px;
+  }
+  .our-chef__item {
+    display: block;
+    margin: 0 auto;
   }
   .our-chef__item img {
     width: 300px;

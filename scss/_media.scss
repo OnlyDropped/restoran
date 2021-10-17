@@ -61,11 +61,11 @@
   .header-bottom {
     &__inner {
       flex-direction: column;
+      row-gap: 20px;
     }
   }
   .our-story {
-    padding-top: 0;
-    padding-bottom: 51px;
+    padding: 50px 0;
     &__inner {
       flex-direction: column;
     }
@@ -191,6 +191,8 @@
       flex-direction: column;
     }
     &__item {
+      display: block;
+      margin: 0 auto;
       width: 290px;
       img {
         width: 100%;
@@ -202,12 +204,14 @@
   }
   .our-chef {
     padding-bottom: 50px;
-    &__inner{
+    &__inner {
       flex-direction: column;
       row-gap: 15px;
     }
-    &__item{
-      img{
+    &__item {
+      display: block;
+      margin: 0 auto;
+      img {
         width: 300px;
       }
     }
