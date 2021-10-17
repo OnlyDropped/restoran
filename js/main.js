@@ -7,6 +7,14 @@ $('.our-menu__inner').slick({
   autoplaySpeed: 17000,
   responsive: [
     {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
       breakpoint: 376,
       settings: {
         arrows: false,
