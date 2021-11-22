@@ -940,6 +940,89 @@ body {
   }
 }
 
+@media (max-width: 425px) {
+  .header-bottom__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .header-bottom__card {
+    width: 100%;
+  }
+  .our-story__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 25px;
+  }
+  .info {
+    background-size: cover;
+  }
+  .info__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .info__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info__content-title, .info__content-subtitle {
+    text-align: center;
+  }
+  .info__link {
+    margin: 0 auto;
+  }
+  .our-offers__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .our-offers__menu {
+    width: 100%;
+  }
+  .our-offers__item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 20px;
+  }
+  .our-chef__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 25px;
+  }
+  .our-chef__item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer {
+    height: auto;
+  }
+}
+
 @media (max-width: 375px) {
   .header__btn {
     display: block;
@@ -1014,6 +1097,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 20px;
+  }
+  .header-bottom__card {
+    width: 100%;
   }
   .our-story {
     padding: 50px 0;
